@@ -9,6 +9,12 @@ module.exports = {
       fallbackLocale: 'en',
       localeDir: 'locales',
       enableInSFC: false
+    },
+    moment: {
+      locales: [
+        'de_de',
+        'en_us'
+      ]
     }
   }
 }
